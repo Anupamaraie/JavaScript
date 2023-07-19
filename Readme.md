@@ -1,0 +1,1 @@
+This repository contains all of the JavaScript projects from freeCodeCamp which I did as part of my learning.
