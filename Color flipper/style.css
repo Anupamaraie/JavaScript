@@ -1,0 +1,52 @@
+.center{
+   font-family: 'Trebuchet MS'; 
+   text-align: center;
+}
+
+h3{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    margin: 10px 10px;
+    padding: 10px;
+}
+
+a{
+    display: flexbox;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    border: 1px solid black;
+    padding: 3px 280px;
+    background-color: aliceblue;
+}
+
+a:hover{
+    color: purple;
+}
+
+.container{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS';
+}
+
+h2{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+
+.btn{
+    display: block;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS';
+    margin-left: 600px;
+}
