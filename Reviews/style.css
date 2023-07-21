@@ -1,0 +1,83 @@
+*{
+    background-color:aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.title p{
+    font-size: 30px;
+    margin-bottom: 0vh;
+}
+
+.underline{
+    margin-bottom: 30px;
+    color: dodgerblue;
+}
+
+.review{
+    border: 1px solid white;
+    display: inline-block;
+    padding: 15px;
+    background-color: white;
+    border-radius: 2em;
+    margin: 1% 30% 1% 30%;
+}
+
+.img-container
+{
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+#person-img{
+    border: 1px solid white;
+    border-radius: 40%;
+    max-width: 30%;
+    max-height: 40%;
+    object-fit: cover;
+    background-color: white;
+}
+
+h4{
+    font-size: 20px;
+    background-color: white;
+    margin: 3px;
+}
+
+h5{
+  font-size: 17px;
+  background-color: white;
+  margin: 3px;
+  color: dodgerblue;
+}
+
+#info{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+} 
+
+.button-container{
+  margin: 10px;
+  background-color: white;
+}
+
+.prev-btn{
+  margin: 7px;
+  margin-bottom: 0px;
+}
+
+.random-btn{
+  border-radius: 1em;
+}
+
+.prev-btn:hover,
+.next-btn:hover,
+.random-btn:hover{
+  color: dodgerblue;
+}
+
