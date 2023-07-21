@@ -20,6 +20,14 @@ const reviews = [
     img:"https://mangainsider.com/wp-content/uploads/2022/04/giyu_demon_slayer_guide.png",
     text:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, quasi impedit. Ipsam voluptatum possimus minus iusto, blanditiis in aspernatur ex doloremque, qui, aliquid ea? Sunt earum eum explicabo minima ducimus."
 },
+{
+    id:4,
+    name:"Obanai",
+    job:"Snake Hashira",
+    img:"https://i.pinimg.com/1200x/64/9d/f7/649df7b66ce9d0f951ab54e5e35f3a86.jpg",
+    text:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, quasi impedit. Ipsam voluptatum possimus minus iusto, blanditiis in aspernatur ex doloremque, qui, aliquid ea? Sunt earum eum explicabo minima ducimus."
+}
+
 ];
 
 const img = document.getElementById('person-img');
