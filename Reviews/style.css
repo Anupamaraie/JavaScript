@@ -36,10 +36,11 @@
 #person-img{
     border: 1px solid white;
     border-radius: 40%;
-    max-width: 30%;
-    max-height: 40%;
+    max-width: 20%;
+    max-height: 30%;
     object-fit: cover;
     background-color: white;
+    position:relative;
 }
 
 h4{
@@ -66,18 +67,24 @@ h5{
   background-color: white;
 }
 
-.prev-btn{
-  margin: 7px;
+.prev-btn,
+.next-btn{
+  margin: 5px;
   margin-bottom: 0px;
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
 }
 
 .random-btn{
-  border-radius: 1em;
+  border-radius: 0.5em;
+  padding: 3px;
 }
 
 .prev-btn:hover,
 .next-btn:hover,
 .random-btn:hover{
   color: dodgerblue;
+  
 }
 

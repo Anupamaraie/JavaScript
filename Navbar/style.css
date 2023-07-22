@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    height: 30px;
+    background-color: transparent;
+    color: transparent;
+}
+
+nav{
+    display: flex;
+    height: auto;
+    width: 100%;
+    background-color: cadetblue;
+}
+
+.nav-toggle{
+    font-size: 20px;
+    color: black;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    display: none;
+    justify-content: end;
+}
+
+.nav-toggle:hover{
+    transform: rotate(90deg);
+}
+
+.links{
+    list-style-type: none;
+    display: flex;
+    margin: 2px;
+    margin-left: 40%;
+}
+
+.links a{
+    color: black;
+}
+
+.links a:hover{
+    padding: 2px;
+    background-color: aqua;
+}
+
+.icons{
+    list-style-type: none;
+    display: flex;
+    margin: 2px;
+    margin-left: 10%;
+}
+
+li{
+    padding: 5px 15px 2px 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.toggle{
+    display: block;
+}
+
+@media (max-width:952px) {
+    main{
+        background-color: aliceblue;
+    }
+    .logo{
+        height: 50px;
+        padding-left: 50px;
+    }
+
+    .links a{
+        list-style-type: none;
+        display: inline-block;
+        font-size: 25px;
+        padding: 3px;
+    }
+
+    .links{
+        margin-right: 60px;
+    }
+
+    .icons{
+        display: none;
+        position:fixed;
+        top: 52px;
+        margin-left: 88%;
+    }
+
+    .icons .fab{
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    .nav-toggle{
+        display: block;
+    }
+}
+
+@media (max-width:858px){
+    .links{
+        display: none;
+    }
+
+    .nav-toggle{
+        margin-left: 70%;
+    }
+
+    .icons{
+        display: none;
+    }
+
+    
+}
