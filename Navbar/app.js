@@ -11,6 +11,5 @@ navToggle.addEventListener('click', function(){
     }
     else{
         icons.classList.add("toggle");
-        icons.body.style.display = 'block';
     }
 })
